@@ -5,7 +5,7 @@ int main(){
     printf("Desafio cadastro das Cartas no Super Trunfo!\n");  
     printf("Novo commit\n");
     
-    char Estado[10];
+        char Estado[10];
         char Codigo[10];    
         char Cidade[15];
         int  Populacao; 
