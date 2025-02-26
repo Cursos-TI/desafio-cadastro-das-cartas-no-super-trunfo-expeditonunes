@@ -3,11 +3,12 @@
 int main(){
 
     printf("Desafio cadastro das Cartas no Super Trunfo!\n");  
-    printf("Novo commit\n");
+    printf("Carta 1 \n"); 
     
-        char Estado[10];
-        char Codigo[10];    
-        char Cidade[15];
+    
+        char Estado[30]; 
+        char Codigo[20];    
+        char Cidade[50];
         int  Populacao; 
         int  Pontos;
         float Area;
@@ -16,7 +17,7 @@ int main(){
         printf("Digite o Estado: \n"); 
         scanf("%s", &Estado); 
 
-        printf("Digite o estado seguido pelo codigo da carta: \n"); 
+        printf("Digite a letra inicial do estado seguido pelo codigo da carta: \n"); 
         scanf("%s", &Codigo); 
        
         printf("Digite a Cidade: \n"); 
@@ -31,8 +32,8 @@ int main(){
         printf("Digite a Área em km²: \n"); 
         scanf("%f", &Area); 
 
-        printf("Digite o PIB \n"); 
-        scanf("%f", PIB); 
+        printf("Digite o Produto Interno Bruto: \n"); 
+        scanf("%f", &PIB); 
 
 
         printf("Estado: %s\n", Estado); 
@@ -40,7 +41,7 @@ int main(){
         printf("Cidade: %s\n", Cidade);
         printf("População: %d\n", Populacao); 
         printf("Area: %f\n", Area); 
-        printf("PIB: %f\n", PIB); 
+        printf("Produto Interno Bruto: %f\n", PIB); 
         printf("Pontos Turisticos: %d\n", Pontos);
 
 
