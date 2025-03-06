@@ -7,7 +7,7 @@ int main(){
     printf("**Carta 1** \n"); 
     
     
-        char estado1, estado2;  
+        char estado1[20], estado2[20];  
         char codigo1[10],codigo2[10];     
         char cidade1[20],cidade2[20]; 
         int  populacao1,populacao2;  
@@ -33,7 +33,7 @@ int main(){
         printf("Digite a Área em km²: \n"); 
         scanf("%f", &area1); 
 
-        printf("Digite o Produto Interno Bruto: \n"); 
+        printf("Digite o Produto Interno Bruto(em bilhões de reais): \n"); 
         scanf("%f", &pib1); 
 
 
@@ -60,11 +60,12 @@ int main(){
         printf("Digite a Área em km²: \n"); 
         scanf("%f", &area2); 
 
-        printf("Digite o Produto Interno Bruto: \n"); 
+        printf("Digite o Produto Interno Bruto(em bilhões de reais): \n"); 
         scanf("%f", &pib2); 
 
-        printf ("***CARTA 1*** \n"); 
-        printf("Código: %s - Estado: %s\n", codigo1, estado1); 
+        printf("***CARTA 1*** \n"); 
+        printf("Código: %s\n", codigo1); 
+        printf("Estado: %s\n", estado1); 
         printf("Cidade: %s\n", cidade1); 
         printf("População: %d\n", populacao1); 
         printf("Área em Km2: %f\n", area1); 
@@ -82,6 +83,9 @@ int main(){
 
 
         return 0; 
+
+
+} 
     
         
 
@@ -90,7 +94,7 @@ int main(){
 
 
 
-}
+
 
 
 
